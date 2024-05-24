@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Shop</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pharmacy Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <aside id="cart" class="cart">
+                <img src="icons/cart.png" alt="cart">
+                <ul id="cart-items">
+                    <!-- Cart items will be dynamically added here -->
+                </ul>
+                <span id="cart-total">0</span>
+                <a href="check.html"><button onclick="check()">Check</button></a>
+            </aside>
+        </div>
+    </header>
+    <main>
+        <div class="hero" style="background-image:url(background.jpg)">
+            <div class="moving-text">
+                <h2>Welcome to Our Pharmacy</h2>
+                <p>Your health is our priority. Find the best medicines and health products here.</p>
+            </div>
+            <button onclick="displayAlert()">Shop Now</button>
+        </div>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="./images/coldcap.jpg" alt="cold cap">
+                    <h3>Cold cap</h3>
+                    <p>Ksh 10.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Epaderm.webp" alt="Epaderm">
+                    <h3>Epaderm</h3>
+                    <p>Ksh 20.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Mielle.webp" alt="Mielle">
+                    <h3>Mielle</h3>
+                    <p>Ksh 30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/coldcap.jpg" alt="cold cap">
+                    <h3>Cold cap</h3>
+                    <p>Ks 10.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Epaderm.webp" alt="Epaderm">
+                    <h3>Epaderm</h3>
+                    <p>Ksh 20.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Mielle.webp" alt="Mielle">
+                    <h3>Mielle</h3>
+                    <p>Ksh 30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Mielle.webp" alt="Mielle">
+                    <h3>Mielle</h3>
+                    <p>Ksh 30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Mielle.webp" alt="Mielle">
+                    <h3>Mielle</h3>
+                    <p>Ksh 30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Mielle.webp" alt="Mielle">
+                    <h3>Mielle</h3>
+                    <p>Ksh 30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Mielle.webp" alt="Mielle">
+                    <h3>Mielle</h3>
+                    <p>Ksh 30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Mielle.webp" alt="Mielle">
+                    <h3>Mielle</h3>
+                    <p>Ksh 30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="./images/Mielle.webp" alt="Mielle">
+                    <h3>Mielle</h3>
+                    <p>Ksh 30.00</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pharmacy Shop. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
